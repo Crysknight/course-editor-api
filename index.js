@@ -1,0 +1,2 @@
+require('./courses');
+require('./structure');
