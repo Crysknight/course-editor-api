@@ -1,5 +1,33 @@
 [
   {
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "optional": false,
+            "field": "varname1",
+            "description": "<p>No type.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "varname2",
+            "description": "<p>With type.</p>"
+          }
+        ]
+      }
+    },
+    "type": "",
+    "url": "",
+    "version": "0.0.0",
+    "filename": "./docs/main.js",
+    "group": "C__projects_course_editor_api_docs_main_js",
+    "groupTitle": "C__projects_course_editor_api_docs_main_js",
+    "name": ""
+  },
+  {
     "type": "post",
     "url": "/api/close-course",
     "title": "Закрыть курс",
@@ -308,57 +336,6 @@
     "version": "0.0.0",
     "filename": "./services.js",
     "groupTitle": "Services"
-  },
-  {
-    "type": "post",
-    "url": "/api/insert-item",
-    "title": "Вставить новую сущность",
-    "name": "InsertItem",
-    "group": "Structure",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "Object",
-            "optional": false,
-            "field": "request",
-            "description": "<p>объект запроса</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "request.token",
-            "description": "<p>токен определенного курса</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "request.item",
-            "description": "<p>сущность</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "request.parentId",
-            "description": "<p>ID нового родителя</p>"
-          },
-          {
-            "group": "Parameter",
-            "type": "Number",
-            "optional": false,
-            "field": "request.index",
-            "description": "<p>место, куда вставить</p>"
-          }
-        ]
-      }
-    },
-    "version": "0.0.0",
-    "filename": "./structure.js",
-    "groupTitle": "Structure"
   },
   {
     "type": "post",

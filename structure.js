@@ -15,18 +15,6 @@
  */
 
 /**
- * @api {post} /api/insert-item Вставить новую сущность
- * @apiName InsertItem
- * @apiGroup Structure
- * 
- * @apiParam {Object} request объект запроса
- * @apiParam {String} request.token токен определенного курса
- * @apiParam {String} request.item сущность
- * @apiParam {String} request.parentId ID нового родителя
- * @apiParam {Number} request.index место, куда вставить
- */
-
-/**
  * @api {post} /api/move-item Передвинуть сущность
  * @apiName MoveItem
  * @apiGroup Structure
