@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "directories": {
-    "doc": "doc"
+    "docs": "docs"
   },
   "scripts": {
-    "doc": "apidoc -i ./ -o doc/"
+    "doc": "apidoc -i ./ -o docs/"
   },
   "author": "",
   "license": "ISC"

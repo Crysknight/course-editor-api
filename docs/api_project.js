@@ -1,4 +1,4 @@
-{
+define({
   "name": "course-editor-api",
   "version": "0.1.0",
   "description": "api needed by course-editor",
@@ -9,8 +9,8 @@
   "apidoc": "0.3.0",
   "generator": {
     "name": "apidoc",
-    "time": "2019-03-03T09:00:11.041Z",
+    "time": "2019-03-03T09:47:09.426Z",
     "url": "http://apidocjs.com",
     "version": "0.17.7"
   }
-}
+});
